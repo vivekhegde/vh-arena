@@ -1,3 +1,265 @@
-h1, h2 {
-  font-family: Lato;
+h1,
+h2 {
+	font-family: Lato;
+}
+
+/*
+  /* DEMO 5 */
+/*
+  .wrapper-dropdown-5 {
+	  position: relative;
+	  width: 200px;
+	  margin: 0 auto;
+	  padding: 12px 15px;
+  
+	  background: #fff;
+	  border-radius: 5px;
+	  box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	  cursor: pointer;
+	  outline: none;
+	  -webkit-transition: all 0.3s ease-out;
+	  -moz-transition: all 0.3s ease-out;
+	  -ms-transition: all 0.3s ease-out;
+	  -o-transition: all 0.3s ease-out;
+	  transition: all 0.3s ease-out;
+  }
+  
+  .wrapper-dropdown-5:after {  
+	  content: "";
+	  width: 0;
+	  height: 0;
+	  position: absolute;
+	  top: 50%;
+	  right: 15px;
+	  margin-top: -3px;
+	  border-width: 6px 6px 0 6px;
+	  border-style: solid;
+	  border-color: #4cbeff transparent;
+  }
+  
+  .wrapper-dropdown-5 .dropdown {
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+  
+	  background: #fff;
+	  border-radius: 0 0 5px 5px;
+	  border: 1px solid rgba(0,0,0,0.2);
+	  border-top: none;
+	  border-bottom: none;
+	  list-style: none;
+	  -webkit-transition: all 0.3s ease-out;
+	  -moz-transition: all 0.3s ease-out;
+	  -ms-transition: all 0.3s ease-out;
+	  -o-transition: all 0.3s ease-out;
+	  transition: all 0.3s ease-out;
+  
+	  max-height: 0;
+	  overflow: hidden;
+  }
+  
+  .wrapper-dropdown-5 .dropdown li {
+	  padding: 0 10px ;
+  }
+  
+  .wrapper-dropdown-5 .dropdown li a {
+	  display: block;
+	  text-decoration: none;
+	  color: #333;
+	  padding: 10px 0;
+	  transition: all 0.3s ease-out;
+	  border-bottom: 1px solid #e6e8ea;
+  }
+  
+  .wrapper-dropdown-5 .dropdown li:last-of-type a {
+	  border: none;
+  }
+  
+  .wrapper-dropdown-5 .dropdown li i {
+	  margin-right: 5px;
+	  color: inherit;
+	  vertical-align: middle;
+  }
+  
+  
+  .wrapper-dropdown-5 .dropdown li:hover a {
+	  color: #57a9d9;
+  }
+  
+  
+  .wrapper-dropdown-5.active {
+	  border-radius: 5px 5px 0 0;
+	  background: #4cbeff;
+	  box-shadow: none;
+	  border-bottom: none;
+	  color: white;
+  }
+  
+  .wrapper-dropdown-5.active:after {
+	  border-color: #82d1ff transparent;
+  }
+  
+  .wrapper-dropdown-5.active .dropdown {
+	  border-bottom: 1px solid rgba(0,0,0,0.2);
+	  max-height: 400px;
+  }
+  */
+
+/* delat demo*/
+
+#delay_demo .center {
+	width: 500px;
+	position: absolute;
+	bottom: 20px;
+}
+#dd1,
+#dd2,
+#dd3,
+#dd4,
+#dd5,
+#dd6,
+#dd7,
+#dd8 {
+	width: 20px;
+	height: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position: absolute;
+	top: 200px;
+	left: 250px;
+	background-color: blue;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out; /* Ensures that the element is being transformed in the 3d context so that hw acceleration kicks in where appropriate. */
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+#dd1 {
+	-webkit-transition-delay: 0.1s;
+	-moz-transition-delay: 0.1s;
+	-o-transition-delay: 0.1s;
+	-ms-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+#dd2 {
+	-webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	-o-transition-delay: 0.2s;
+	-ms-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+#dd3 {
+	-webkit-transition-delay: 0.3s;
+	-moz-transition-delay: 0.3s;
+	-o-transition-delay: 0.3s;
+	-ms-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+#dd4 {
+	-webkit-transition-delay: 0.4s;
+	-moz-transition-delay: 0.4s;
+	-o-transition-delay: 0.4s;
+	-ms-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+#dd5 {
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-delay: 0.5s;
+	-o-transition-delay: 0.5s;
+	-ms-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+#dd6 {
+	-webkit-transition-delay: 0.6s;
+	-moz-transition-delay: 0.6s;
+	-o-transition-delay: 0.6s;
+	-ms-transition-delay: 0.6s;
+	transition-delay: 0.6s;
+}
+#dd7 {
+	-webkit-transition-delay: 0.7s;
+	-moz-transition-delay: 0.7s;
+	-o-transition-delay: 0.7s;
+	-ms-transition-delay: 0.7s;
+	transition-delay: 0.7s;
+}
+#dd8 {
+	-webkit-transition-delay: 0.8s;
+	-moz-transition-delay: 0.8s;
+	-o-transition-delay: 0.8s;
+	-ms-transition-delay: 0.8s;
+	transition-delay: 0.8s;
+}
+#delay_demo:hover #dd_main {
+	opacity: 0;
+}
+#delay_demo:hover #dd1,
+#delay_demo.hover_effect #dd1 {
+	-webkit-transform: translate(-250px, -200px);
+	-moz-transform: translate(-250px, -200px);
+	-o-transform: translate(-250px, -200px);
+	-ms-transform: translate(-250px, -200px);
+	transform: translate(-250px, -200px);
+}
+#delay_demo:hover #dd2,
+#delay_demo.hover_effect #dd2 {
+	-webkit-transform: translate(0, -200px);
+	-moz-transform: translate(0, -200px);
+	-o-transform: translate(0, -200px);
+	-ms-transform: translate(0, -200px);
+	transform: translate(0, -200px);
+}
+#delay_demo:hover #dd3,
+#delay_demo.hover_effect #dd3 {
+	-webkit-transform: translate(250px, -200px);
+	-moz-transform: translate(250px, -200px);
+	-o-transform: translate(250px, -200px);
+	-ms-transform: translate(250px, -200px);
+	transform: translate(250px, -200px);
+}
+#delay_demo:hover #dd4,
+#delay_demo.hover_effect #dd4 {
+	-webkit-transform: translate(250px, 0);
+	-moz-transform: translate(250px, 0);
+	-o-transform: translate(250px, 0);
+	-ms-transform: translate(250px, 0);
+	transform: translate(250px, 0);
+}
+#delay_demo:hover #dd5,
+#delay_demo.hover_effect #dd5 {
+	-webkit-transform: translate(250px, 200px);
+	-moz-transform: translate(250px, 200px);
+	-o-transform: translate(250px, 200px);
+	-ms-transform: translate(250px, 200px);
+	transform: translate(250px, 200px);
+}
+#delay_demo:hover #dd6,
+#delay_demo.hover_effect #dd6 {
+	-webkit-transform: translate(0, 200px);
+	-moz-transform: translate(0, 200px);
+	-o-transform: translate(0, 200px);
+	-ms-transform: translate(0, 200px);
+	transform: translate(0, 200px);
+}
+#delay_demo:hover #dd7,
+#delay_demo.hover_effect #dd7 {
+	-webkit-transform: translate(-250px, 200px);
+	-moz-transform: translate(-250px, 200px);
+	-o-transform: translate(-250px, 200px);
+	-ms-transform: translate(-250px, 200px);
+	transform: translate(-250px, 200px);
+}
+
+#delay_demo:hover #dd8,
+#delay_demo.hover_effect #dd8 {
+	-webkit-transform: translate(-250px, 0);
+	-moz-transform: translate(-250px, 0);
+	-o-transform: translate(-250px, 0);
+	-ms-transform: translate(-250px, 0);
+	transform: translate(-250px, 0);
 }
